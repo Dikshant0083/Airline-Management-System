@@ -1,0 +1,62 @@
+v# Airline Management System
+
+ ## Project Overview
+ This enhanced Airline Management System is a console-based Java application that implements data structures and algorithms with CRUD operations for managing flights, passengers, and bookings.
+
+ ## Features
+ 1. **Flight Management**
+    - Add, view, update, and delete flights
+    - Search flights by source, destination, date
+    - Sort flights by various criteria (price, time, etc.)
+
+ 2. **Passenger Management**
+    - Register new passengers
+    - View passenger details and booking history
+    - Update passenger information
+    - Remove passengers from system
+
+ 3. **Booking Management**
+    - Create new bookings with seat selection
+    - View booking details
+    - Cancel bookings with proper refund calculation
+    - Print professional-looking tickets
+
+ 4. **Data Structures Implementation**
+    - Linked Lists: For maintaining collections of flights, passengers, and bookings
+    - Binary Search Trees: For efficient flight searching by ID or route
+    - Queues: For handling booking requests and waitlisting
+    - Sorting Algorithms: For displaying flights by various criteria
+    - Searching Algorithms: To find flights and passengers efficiently
+
+ ## Package Structure
+ ```
+ airline/
+ ├── model/
+ │   ├── Flight.java
+ │   ├── Passenger.java
+ │   ├── Booking.java
+ │
+ ├── service/
+ │   ├── FlightService.java
+ │   ├── PassengerService.java
+ │   ├── BookingService.java
+ │   └── PaymentService.java
+ ├── util/
+ │   ├── LinkedList.java
+ │   ├── Queue.java
+ │   ├── SortingUtil.java
+ │   └── SearchingUtil.java
+ ├── dao/
+ │   ├── FlightDAO.java
+ │   ├── PassengerDAO.java
+ │   └── BookingDAO.java
+ └── main/
+     └── AirlineManagementSystem.java
+ ```
+
+ ## Why This Design?
+ - **Modular Structure**: Clean separation of concerns through packages
+ - **Custom Data Structures**: Implementation of required data structures for efficient operations
+ - **Enhanced User Experience**: Improved menu system and ticket printing
+ - **Error Handling**: Robust validation and error handling
+ - **Persistence**: Data saving and loading capability

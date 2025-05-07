@@ -1,0 +1,6 @@
+Air India 101,Delhi,Mumbai,06:00,08:00,3500,100,10-05-2025
+IndiGo 202,Mumbai,Bangalore,09:00,11:00,3000,120,11-05-2025
+SpiceJet 303,Chennai,Hyderabad,13:00,14:30,2500,80,10-05-2025
+Vistara 404,Delhi,Goa,17:00,19:00,4000,90,12-05-2025
+GoAir 505,Kolkata,Delhi,20:00,22:30,3700,75,10-05-2025
+airindia,jaipur,chandigarh,10:30,12:30,4500,25,09-05-2025
